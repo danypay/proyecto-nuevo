@@ -1,8 +1,8 @@
 "use client"
 import useSWR from "swr";
 import { OrderWithProducts } from "@/src/types";
-import Logo from "@/components/ui/Logo";
-import OrderCard from "@/components/Admin/OrderCard";
+import Logo from "@/Components/ui/Logo";
+import OrderCard from "@/Components/Admin/OrderCard";
 
 
 export default function OrdersPage() {
