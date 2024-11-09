@@ -1,6 +1,6 @@
-import ProductSearch from "@/Components/Products/ProductSearch";
-import ProductTable from "@/Components/Products/ProductsTable";
-import Heading from "@/Components/ui/Heading";
+import ProductSearch from "@/components/Products/ProductSearch";
+import ProductTable from "@/components/Products/ProductsTable";
+import Heading from "@/components/ui/Heading";
 import { prisma } from "@/src/lib/prisma";
 
 type searchPageProps = {

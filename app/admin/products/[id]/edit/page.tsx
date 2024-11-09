@@ -1,7 +1,7 @@
-import EditProductForm from "@/Components/Products/EditProductForm"
-import ProductForm from "@/Components/Products/ProductForm"
-import GobackButton from "@/Components/ui/GobackButton"
-import Heading from "@/Components/ui/Heading"
+import EditProductForm from "@/components/Products/EditProductForm"
+import ProductForm from "@/components/Products/ProductForm"
+import GobackButton from "@/components/ui/GobackButton"
+import Heading from "@/components/ui/Heading"
 import { prisma } from "@/src/lib/prisma"
 import { notFound } from "next/navigation"
 

@@ -1,6 +1,6 @@
-import OrderSidebar from "@/Components/Order/OrderSidebar";
-import OrderSummary from "@/Components/Order/OrderSummary";
-import ToastNotification from "@/Components/ui/ToastNotification";
+import OrderSidebar from "@/components/Order/OrderSidebar";
+import OrderSummary from "@/components/Order/OrderSummary";
+import ToastNotification from "@/components/ui/ToastNotification";
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
     return(
